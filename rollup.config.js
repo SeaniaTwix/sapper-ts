@@ -77,7 +77,7 @@ const clientPlugins = {
   includePaths: includePaths(includePathsOptions),
   babel: babel({
     extensions,
-    runtimeHelpers: true,
+    babelHelpers: 'runtime',
     exclude: ['node_modules/@babel/**'],
     presets: [
       [
@@ -136,7 +136,7 @@ const serverPlugins = {
   includePaths: includePaths(includePathsOptions),
   babel: babel({
     extensions,
-    runtimeHelpers: true,
+    babelHelpers: 'runtime',
     exclude: ['node_modules/@babel/**'],
     presets: [
       [
