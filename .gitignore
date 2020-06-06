@@ -4,3 +4,10 @@
 yarn-error.log
 /cypress/screenshots/
 /__sapper__/
+
+# native - neon-binding
+native/index.node
+native/Cargo.lock
+native/target
+
+temp
